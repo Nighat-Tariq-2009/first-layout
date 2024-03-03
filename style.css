@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+  
+}
+@font-face{
+  font-family: font1;
+  src: url("./assest/SairaExtraCondensed-Bold.ttf");
+}
+@font-face{
+  font-family: font2;
+  src: url("./assest/Anta/Anta-Regular.ttf");
+}
+body{
+  min-width: 300px;
+  max-width: 500px;
+  min-height: 300px;
+  max-height: 500px;
+}
+
+.header{
+  width: 20%;
+  height: 100%;
+ background-color:#a74c01;
+ text-align: center;
+ position: fixed;
+
+}
+.header img{
+  width: 200px;
+ 
+}
+
+
+.heading{
+  font-family: font1;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 140px;
+  font-size: 80px;
+  
+  
+}
+h1{
+  text-align: left;
+  padding-left: 50px;
+}
+
+
+
+
+.icon{
+  font-size: 60px;
+  color: blue;
+  padding-left: 50px;
+  word-spacing:.6em ;
+}
+.header ul li{
+  list-style-type: none;
+ 
+}
+.header ul li a{
+
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 50px;
+  
+}
+.main {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  text-align: left;
+  
+  
+  }
+
+.main h1 span{
+  
+  color:#a74c01;
+}
+.main  span a{
+  color:#a74c01;
+}
+p{
+  font-family: font2;
+  font-size: 20px;
+  color: rgb(148, 146, 146);
+  padding-left: 50px;
+  padding-bottom: 30px;
+
+}
+.fa-sass{
+  font-size: 60px;
+  color: red;
+}
+.fa-wordpress{
+  font-size: 60px;
+  color: chartreuse;
+}
+.fa-less{
+  font-size: 60px;
+  color: blueviolet;
+}
+
+
+.icon2 img{
+  width: 60px;
+
+}
+ .icon2{
+  word-spacing: .8em;
+  padding: 30px;
+ } 
+ .checkbox{
+  font-size: 22px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  }
+  .date{
+    float: right;
+    font-size: 16px;
+  }
+  
+ 
